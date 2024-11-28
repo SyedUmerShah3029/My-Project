@@ -1,0 +1,11 @@
+def natural(n):
+    m=0
+    while ((m*m) <= n):
+        m = m+1
+    q = (m-1)*(m-1)
+    print (q)
+    
+    
+natural(54)
+
+

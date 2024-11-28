@@ -1,0 +1,34 @@
+def arithmetic():
+    n=0
+    s=0
+    a=0
+    m = float('inf')    
+
+    while(1):
+        x = int(input("Enter a number (Press -1 to terminate): "))
+        if (x == -1):
+            break
+        n = n+1
+        s = s+x
+        if (x<m):
+            m=x
+    if (n == 0):
+        m = -1
+        a = -1
+    else:
+        a = s/n
+        
+    print ("Count: ")
+    print (n)
+    
+    print ("Sum: ")
+    print (s)
+    
+    print ("Minimum: ")
+    print (m)
+    
+    print ("Mean: ")
+    print (a)
+    
+    
+arithmetic()
